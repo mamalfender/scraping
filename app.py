@@ -19,8 +19,8 @@ for link in links:
     text = link.text
     print(f"{text}: {address}")
 
-#Repeatedly request data from a website to check for updates
-import time
+# Repeatedly request data from a website to check for updates
+""" import time
 
 browser = mechanicalsoup.Browser()
 
@@ -33,4 +33,4 @@ for i in range(4):
     # Wait 10 seconds if this isn't the last request 
     # because we don't wanna wait an extra 10 sec after the last request is done
     if i < 3:
-        time.sleep(10)
+        time.sleep(10) """
